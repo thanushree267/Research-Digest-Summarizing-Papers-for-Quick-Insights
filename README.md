@@ -26,13 +26,13 @@ Below is the basic flowchart describing how the Research Paper Summarizer works:
 
 ```
 +-------------------+      +-----------------------+      +-------------------+
-|  User Uploads     | ---> |  Paper Processing     | ---> |  Summarization     |
-|  PDF Document     |      |  (Extract Text)       |      |  (Summarize Text)  |
+|  User Uploads     | ---> |  Paper Processing     | ---> |  Summarization    |
+|  PDF Document     |      |  (Extract Text)       |      |  (Summarize Text) |
 +-------------------+      +-----------------------+      +-------------------+
                                  |
                                  v
-                       +------------------+    +---------------------+
-                       |  Generate Output | ---> |  Provide Download   |
+                       +------------------+     +---------------------+
+                       |  Generate Output | --->|  Provide Download   |
                        |  (Text, PDF,     |     |  Options (Text,     |
                        |   Word Format)   |     |   PDF, Word)        |
                        +------------------+     +---------------------+
